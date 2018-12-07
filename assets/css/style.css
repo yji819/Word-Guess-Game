@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+  }
+  
+
+
+html{
+    display: flex;
+    justify-content: center;
+}
+
+
+header {
+    text-align: center;
+    font-size: 25px;
+}
+
+div.title{
+    text-align: center;
+}
+
+section {
+    column-count: 3;
+}
+
+
+section .container {
+    display: inline-block;
+    max-width: 300px ;
+    padding-top: 20px;
+}
